@@ -5,39 +5,39 @@
 <?import javafx.scene.layout.HBox?>
 <AnchorPane id="AnchorPane" prefHeight="240.0" prefWidth="400.0" styleClass="anchorstyle" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <TextField fx:id="display" editable="false" onInputMethodTextChanged="#Button" prefHeight="40.0" prefWidth="400.0" styleClass="textField"/>
+      <TextField fx:id="display" editable="false" onInputMethodTextChanged="#Przycisk" prefHeight="40.0" prefWidth="400.0" styleClass="textField"/>
       <HBox layoutY="52.0" prefHeight="40.0" prefWidth="400.0" style="-fx-background-color: black;" AnchorPane.topAnchor="40.0">
          <children>
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="7" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="8" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="9" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="/" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="7" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="8" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="9" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="/" />
          </children>
       </HBox>
       <HBox layoutY="80.0" prefHeight="40.0" prefWidth="400.0" style="-fx-background-color: black;" AnchorPane.topAnchor="80.0">
          <children>
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="4" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="5" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="6" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="*" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="4" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="5" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="6" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="*" />
          </children>
       </HBox>
       <HBox layoutY="120.0" prefHeight="40.0" prefWidth="400.0" style="-fx-background-color: black;">
          <children>
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="1" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="2" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="3" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="-" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="1" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="2" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="3" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="-" />
          </children>
       </HBox>
       <HBox layoutY="160.0" prefHeight="40.0" prefWidth="400.0" style="-fx-background-color: black;">
          <children>
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="0" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="." />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="=" />
-            <Button mnemonicParsing="false" onAction="#Button" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="+" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="0" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="." />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="=" />
+            <Button mnemonicParsing="false" onAction="#Przycisk" prefHeight="40.0" prefWidth="100.0" styleClass="Button" text="+" />
          </children>
       </HBox>
-      <Button layoutY="200.0" mnemonicParsing="false" onAction="#Button" onInputMethodTextChanged="#Button" prefHeight="40.0" prefWidth="400.0" styleClass="Clear" text="C" />
+      <Button layoutY="200.0" mnemonicParsing="false" onAction="#Przycisk" onInputMethodTextChanged="#Przycisk" prefHeight="40.0" prefWidth="400.0" styleClass="Clear" text="C" />
    </children>
 </AnchorPane>
